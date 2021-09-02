@@ -38,7 +38,7 @@ def mgr(img, kernel):
     r2 = reconstruction(d ,r1, method='erosion')
     return r2
 
-# Apply reconstruction by closing using different size kernels and choose pixel-wise maxima
+# Apply reconstruction by closing using kernels of different sizes. The point-wise maxima of all the reconstructions is taken to be the final result.
 def mmgr(img, min_radius=1, max_iterations=50):
     result = np.zeros((img.shape)).astype(img[0][0])
     prev = result.copy()

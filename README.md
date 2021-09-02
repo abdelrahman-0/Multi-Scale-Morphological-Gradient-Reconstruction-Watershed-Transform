@@ -4,7 +4,7 @@ A color-based superpixel algorithm. MMGR uses a composition of morphological ope
 Histsorically, the WT algorithm was known for its sever over segmentation (as shown in the first row of the image). In order to address this problem, MMGR attempts to preprocess the gradient image before applying WT. This reduces the oversegementation (as shown in the second row of the image).
 
 <p float="left">
-  <img src="/comparison.jpg" width="200" />
+  <img src="/comparison.png" width="200" />
 </p>
 
 References:
